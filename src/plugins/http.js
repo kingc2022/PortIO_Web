@@ -1,6 +1,9 @@
 import axios from "axios";
 import router from "./router";
 import user from './stores/user'
+import {useMessage} from 'naive-ui'
+
+const message = useMessage()
 
 // 实例
 let instance = axios.create({
@@ -47,14 +50,15 @@ instance.interceptors.response.use(
         }
 
         if (error.response.status === 429) {
-            alert("请求次数过多");
+            message.warning("请求次数过多")
         } else if (error.response.status === 401) {
             router.push({name: "login"});
         } else if (error.response.status === 404) {
+            message.warning("未找到请求的资源")
             router.push({name: "index"});
         } else {
             if (data.length !== 0) {
-                alert(data);
+                message.warning(data)
             }
         }
 
