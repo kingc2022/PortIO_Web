@@ -1,0 +1,1 @@
+import{l as t,m as u,n as e,s as a}from"./index-dd49acc8.js";const c={__name:"Logout",setup(n){const s=t();return u(()=>{e.commit("updateToken",null),e.commit("updateUser",{}),s.success("已退出登录"),a.push({name:"index"})}),(o,r)=>null}};export{c as default};
