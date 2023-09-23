@@ -27,3 +27,4 @@ coverage
 *.sw?
 
 update.sh
+build.bat
