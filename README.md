@@ -1,10 +1,12 @@
-# portio-web
+# PortIO_Web
 
-This template should help get you started developing with Vue 3 in Vite.
+A Vue 3 + Vite Project
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+- [JetBrains WebStorm](https://jetbrains.com/webstorm)
 
 ## Customize configuration
 
@@ -12,18 +14,20 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
+### Install Dependencies
+
 ```sh
-npm install
+yarn install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+yarn dev
 ```
 
 ### Compile and Minify for Production
 
 ```sh
-npm run build
+yarn build
 ```

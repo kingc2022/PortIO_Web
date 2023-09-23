@@ -35,7 +35,7 @@
 import {h, ref} from "vue"
 import {NIcon, NLayout, NLayoutContent, NLayoutSider, NMenu} from "naive-ui"
 import {RouterLink, RouterView} from 'vue-router'
-import {AddOutline, HomeOutline, ListOutline} from '@vicons/ionicons5'
+import {AddOutline, CloudDownloadOutline, HomeOutline, ListOutline} from '@vicons/ionicons5'
 import router from "@/plugins/router";
 
 
@@ -62,6 +62,11 @@ const menuOptions = [
     label: "创建隧道",
     key: "tunnels.create",
     icon: AddOutline,
+  },
+  {
+    label: "下载客户端",
+    key: "downloads",
+    icon: CloudDownloadOutline,
   },
 ]
 

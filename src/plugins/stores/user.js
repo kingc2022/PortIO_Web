@@ -16,7 +16,7 @@ export default createStore({
             "email": "",
             "email_verified_at": null,
             "auth_code": null,
-            "traffic": "",
+            "traffic": 0,
             "realnamed": "",
             "created_at": "",
             "updated_at": "",

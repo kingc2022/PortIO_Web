@@ -58,7 +58,7 @@ instance.interceptors.response.use(
             router.push({name: "index"});
         } else {
             if (data.length !== 0) {
-                message.warning(data)
+                message.warning(data.toString())
             }
         }
 
